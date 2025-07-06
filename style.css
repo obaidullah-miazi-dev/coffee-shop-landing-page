@@ -7,6 +7,9 @@ font-family: "Poppins", sans-serif; */
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #e2d9c8;
+}
 #header-container{
     max-width: 85%;
     height: 700px;
@@ -18,7 +21,7 @@ font-family: "Poppins", sans-serif; */
 .logo img{
     width: 100px;
     margin-left: 25px;
-    opacity: 90%;
+    opacity: 95%;
 }
 
 .nav-bar{
@@ -32,7 +35,7 @@ font-family: "Poppins", sans-serif; */
     text-decoration: none;
     font-family: poppins;
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.733);
+    color: #ffffffe5;
     font-weight: 500;
     margin-right: 50px;
 }
@@ -63,3 +66,79 @@ font-family: "Poppins", sans-serif; */
     font-weight: 600;
 }
 
+.shop-container{
+    max-width: 85%;
+    background-color: white;
+    margin: 100px auto;
+}
+
+.item-title h3{
+    text-align: center;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding: 40px;
+}
+
+.coffee-card-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.coffee-card{
+    background-color: rgba(226, 217, 200, 0.185);
+    border: 3px solid rgba(226, 217, 200, 0.048);
+    max-width: 20.5%;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 80px;
+    /* padding: 5px; */
+}
+
+.coffee-img{
+    margin: 10px auto;
+    text-align: center;
+}
+.coffee-img img{
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;          
+}   
+
+.coffee-card h3{
+    font-family: poppins;
+    margin-left: 6px;
+}
+
+.coffee-card p{
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 6px;
+}
+
+.pricing-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 4px;
+    align-items: center;
+}
+
+.pricing-section h3{
+    font-size: 24px;
+    margin-top: 10px;
+    color: rgb(44, 5, 0);
+}
+
+.btn{
+    background-color: rgb(44, 5, 0);
+    color: white;
+    font-family: poppins;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+}
