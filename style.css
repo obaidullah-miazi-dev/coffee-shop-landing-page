@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: "Imperial Script", cursive;
+font-family: "Poppins", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header-container{
+    max-width: 85%;
+    height: 700px;
+    margin: 50px auto;
+    background-image: url(/images/coffee-bg.jpg);
+    background-size: cover; 
+}
+
+.logo img{
+    width: 100px;
+    margin-left: 25px;
+    opacity: 90%;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 35px;
+    align-items: center;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.733);
+    font-weight: 500;
+    margin-right: 50px;
+}
+
+.heading-section{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.heading-section h1{
+    color: rgba(255, 255, 255, 0.911);
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.welcome{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.heading-order-button button{
+    background-color: white;
+    padding: 14px 28px;
+    border-radius: 100px;
+    font-size: 16px;
+    margin-top: 16px;
+    font-weight: 600;
+}
+
