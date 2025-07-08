@@ -1,8 +1,10 @@
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 450px) {
+
     #header-container {
         height: 400px;
         background-image: url(Coffee-bg-final-for-responsive.gif);
         background-size: cover;
+        
     }
 
     .logo img {
@@ -15,12 +17,11 @@
     }
 
     .heading-section {
-    margin-left: 0px;
-    margin-top: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 .welcome{
     font-size: 20px;
