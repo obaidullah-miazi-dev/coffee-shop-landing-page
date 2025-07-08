@@ -3,8 +3,7 @@
     #header-container {
         height: 400px;
         background-image: url(Coffee-bg-final-for-responsive.gif);
-        background-size: cover;
-        
+        max-width: 88%;   
     }
 
     .logo img {
@@ -37,9 +36,21 @@
     font-size: 14px;
 }
 
+.shop-container{
+    max-width: 88%;
+}
+
+.item-title h3{
+    font-size: 16px;
+    padding: 20px;
+}
+
 .coffee-card {
     width: 150px;
     padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+
 }
 
 .coffee-card img {
@@ -62,5 +73,136 @@
     margin-top: 0;
     margin-right: 0;
 }
+
+.checkout{
+    max-width: 88%;
+    background: none;
+    text-align: center;
+}
+
+.checkout-content h2 {
+    font-size: 28px;
+}
+
+.review-container {
+    width: 88%;
+    padding-bottom: 20px;
+}
+
+.review-section-caption{
+    padding-top: 20px;
+}
+
+.review-section-caption p {
+    font-size: 22px;
+}
+
+
+.review-section-caption h3 {
+    font-size: 18px;
+}
+
+.review-card-section{
+    padding: 0 25px;
+}
+
+
+.review-card {
+    width: 400px;
+    padding: 15px 25px;
+}
+
+.reviewer-img1 {
+    width: 45px;
+    height: 45px;
+}
+
+
+.reviewer-info h2 {
+    font-size: 14px;
+}
+
+.reviewer-info p, .subscribe-heading p {
+    font-size: 10px;
+}
+.review p {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.subscribe-container{
+    max-width: 88%;
+    background: none;
+}
+
+.subscribe-heading h3 {
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+.email-container{
+    justify-content: center;
+}
+
+.email-container input {
+    width: 300px;
+    padding: 20px;
+    padding-bottom: 80px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+.subscribe-btn {
+    font-size: 14px;
+    width: 300px;
+    padding: 12px 24px;
+}
+
+.footer-section {
+    width: 88%;
+    flex-wrap: wrap;
+    padding: 10px 25px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.logo-section img {
+    width: 80px;
+}
+
+span h2 {
+    font-size: 10px;
+    margin-bottom: 3px;
+
+}
+
+.footer-section p{
+    font-size: 8px;
+}
+
+.icon-section{
+    position: relative;
+    bottom: 8px;
+}
+
+.icon-section a {
+    font-size: 10px;
+    margin-left: 0px;
+}
+
+.rights{
+    text-align: center;
+}
+
+.transform:hover{
+    transform: scale(1.05);
+    transition: 0.8s ease;
+    cursor: pointer;
+}
+
 
 }
