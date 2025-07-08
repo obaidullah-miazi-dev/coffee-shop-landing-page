@@ -164,10 +164,12 @@
 
 .footer-section {
     width: 88%;
-    flex-wrap: wrap;
-    padding: 10px 25px;
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    /* flex-wrap: wrap; */
+    padding: 20px 45px;
     gap: 10px;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .logo-section img {
@@ -194,8 +196,15 @@ span h2 {
     margin-left: 0px;
 }
 
-.rights{
+.reserved{
     text-align: center;
+    background-color: #30261c;
+    width: 88%;
+    margin: 0 auto;
+    color: white;
+    font-family: poppins;
+    font-size: 8px;
+    font-weight: 200;
 }
 
 .transform:hover{
