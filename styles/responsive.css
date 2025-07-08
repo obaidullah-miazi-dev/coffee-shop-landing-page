@@ -37,4 +37,30 @@
     font-size: 14px;
 }
 
+.coffee-card {
+    width: 150px;
+    padding: 5px;
+}
+
+.coffee-card img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+.coffee-card h3{
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.coffee-card p {
+    font-size: 8px;
+}
+
+.btn {
+    padding: 5px 10px;
+    font-size: 8px;
+    margin-top: 0;
+    margin-right: 0;
+}
+
 }
