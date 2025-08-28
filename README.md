@@ -81,6 +81,8 @@ Feel free to use, modify, or distribute — just don’t forget to give proper c
 
 ## Contact
 
-GitHub:(https://github.com/obaidullah-miazi-dev)
-LinkedIn: (http://www.linkedin.com/in/obaidullah-miazi)
+GitHub:(https://github.com/obaidullah-miazi-dev)  
+
+LinkedIn: (http://www.linkedin.com/in/obaidullah-miazi)  
+
 Email: (obaidullahmiazi.dev@gmail.com)
