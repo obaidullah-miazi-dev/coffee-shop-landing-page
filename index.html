@@ -16,10 +16,10 @@
 <body>
     <div id="header-container">
         <div class="nav-bar">
-            <div class="logo">
+            <div class="logo animation">
                 <img src="images/coffee-logo.png" alt="">
             </div>
-            <div class="nav-menu">
+            <div class="nav-menu animation">
                 <a href="#">HOME</a>
                 <a href="#">COFFEE</a>
                 <a href="#">SHOP</a>
@@ -28,11 +28,11 @@
             </div>
         </div>
         <div class="heading-section">
-            <h1>
+            <h1 class="animation">
                 <span class="welcome">Welcome!</span> <br>
                 We serve the best coffee <br> in your city!
             </h1>
-            <div class="heading-order-button">
+            <div class="heading-order-button animation">
                 <button class="first-btn heading-order-button">Order Now</button>
             </div>
         </div>
@@ -297,7 +297,9 @@
         </div>
 
         <div class="social-section content">
-             <span><h2>SOCIAL MEDIA</h2></span>
+            <span>
+                <h2>SOCIAL MEDIA</h2>
+            </span>
             <div class="icon-section">
                 <a href=""><i class="fa-brands fa-twitter"></i></a>
                 <a href=""><i class="fa-brands fa-facebook"></i></a>
@@ -306,8 +308,14 @@
             </div>
         </div>
     </footer>
-    <div class="reserved"><p class="rights">©️Moon Coffee,All Rights Reserved 2025</p></div>
+    <div class="reserved">
+        <p class="rights">©️Moon Coffee,All Rights Reserved 2025</p>
+    </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script/script.js"></script>
 </body>
 
 </html>
