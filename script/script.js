@@ -61,6 +61,20 @@ tl.from('.review-container .animation5',{
         start:'top 60%',
         end:'top 40%',
         scrub:1,
+    }
+})
+
+gsap.from('.subscribe-container .animation6',{
+    y:'50',
+    opacity:0,
+    duration:0.5,
+    stagger:0.3,
+    scrollTrigger:{
+        trigger:'.subscribe-container',
+        scroller:'body',
+        start:'top 60%',
+        end:'top 40%',
+        scrub:2,
         markers:true
     }
 })
