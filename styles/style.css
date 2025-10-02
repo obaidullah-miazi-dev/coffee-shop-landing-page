@@ -404,11 +404,11 @@ span h2{
     
 }
 
-.transform:hover{
+/* .transform:hover{
     transform: scale(1.2);
     transition: 0.8s ease;
     cursor: pointer;
-}
+} */
 
 .first-btn:hover{
     background-color: rgb(44, 5, 0);

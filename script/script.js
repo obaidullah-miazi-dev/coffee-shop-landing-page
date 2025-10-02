@@ -49,3 +49,18 @@ tl.from('.checkout .animation4',{
         scrub:2,
     }
 })
+
+tl.from('.review-container .animation5',{
+    y:'50',
+    opacity:0,
+    duration:0.8,
+    stagger:0.3,
+    scrollTrigger:{
+        trigger:'.review-container',
+        scroller:'body',
+        start:'top 60%',
+        end:'top 40%',
+        scrub:1,
+        markers:true
+    }
+})
