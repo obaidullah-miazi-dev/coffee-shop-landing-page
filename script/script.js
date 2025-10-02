@@ -75,6 +75,5 @@ gsap.from('.subscribe-container .animation6',{
         start:'top 60%',
         end:'top 40%',
         scrub:2,
-        markers:true
     }
 })
