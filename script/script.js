@@ -37,7 +37,7 @@ gsap.from('.dessert-section .animation3',{
 
 
 tl.from('.checkout .animation4',{
-    y:'50',
+    x:'150',
     opacity:0,
     duration:0.8,
     stagger:0.3,
@@ -51,7 +51,7 @@ tl.from('.checkout .animation4',{
 })
 
 tl.from('.review-container .animation5',{
-    y:'50',
+    x:'-150',
     opacity:0,
     duration:0.8,
     stagger:0.3,
