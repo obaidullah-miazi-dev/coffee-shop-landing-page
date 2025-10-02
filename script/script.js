@@ -5,3 +5,33 @@ tl.from('#header-container .animation',{
     duration:0.8,
     stagger:0.4
 })
+
+gsap.from('.shop-container .animation2',{
+    y:'50',
+    opacity:0,
+    duration:0.5,
+    stagger:0.3,
+    scrollTrigger:{
+        trigger:'.shop-container',
+        scroller:'body',
+        start:'top 60%',
+        end:'top 20%',
+        scrub:3,
+        
+    }
+})
+
+gsap.from('.dessert-section .animation3',{
+    y:'50',
+    opacity:0,
+    duration:0.5,
+    stagger:0.3,
+    scrollTrigger:{
+        trigger:'.dessert-section',
+        scroller:'body',
+        start:'top 60%',
+        end:'top 20%',
+        scrub:3,
+        markers:true
+    }
+})
