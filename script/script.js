@@ -32,6 +32,20 @@ gsap.from('.dessert-section .animation3',{
         start:'top 60%',
         end:'top 20%',
         scrub:3,
-        markers:true
+    }
+})
+
+
+tl.from('.checkout .animation4',{
+    y:'50',
+    opacity:0,
+    duration:0.8,
+    stagger:0.3,
+    scrollTrigger:{
+        trigger:'.checkout',
+        scroller:'body',
+        start:'top 60%',
+        end:'top 40%',
+        scrub:2,
     }
 })
