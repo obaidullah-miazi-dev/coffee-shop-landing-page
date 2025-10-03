@@ -90,6 +90,5 @@ gsap.from('.footer-section .animation7',{
         start:'top 80%',
         end:'top 85%',
         scrub:3,
-        markers:true
     }
 })
