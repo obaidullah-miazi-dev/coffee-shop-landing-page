@@ -50,11 +50,11 @@ tl.from('.checkout .animation4',{
     }
 })
 
-tl.from('.review-container .animation5',{
+gsap.from('.review-container .animation5',{
     x:'-150',
     opacity:0,
     duration:0.8,
-    stagger:0.3,
+    // stagger:0.3,
     scrollTrigger:{
         trigger:'.review-container',
         scroller:'body',
@@ -73,7 +73,23 @@ gsap.from('.subscribe-container .animation6',{
         trigger:'.subscribe-container',
         scroller:'body',
         start:'top 60%',
-        end:'top 40%',
+        end:'top 50%',
         scrub:2,
+    }
+})
+
+
+gsap.from('.footer-section .animation7',{
+    y:'50',
+    opacity:0,
+    duration:0.8,
+    stagger:0.3,
+    scrollTrigger:{
+        trigger:'.footer-section',
+        scroller:'body',
+        start:'top 80%',
+        end:'top 85%',
+        scrub:3,
+        markers:true
     }
 })
